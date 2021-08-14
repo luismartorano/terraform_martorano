@@ -17,3 +17,6 @@ crash.log
 
 # Backup files
 *.bak
+
+#ocultando o arquivo pem
+*.pem
