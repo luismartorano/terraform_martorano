@@ -1,0 +1,19 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Crash log files
+crash.log
+
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Directories
+.terraform/
+
+# Ignored vscode files
+.vscode/
+
+# Backup files
+*.bak
