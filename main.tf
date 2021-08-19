@@ -13,8 +13,5 @@ terraform {
     key    = "terraform-princ.tfstate"
     region = "us-east-2"
   }
-  # The name of the Terraform Cloud workspace to store Terraform state files in.
-  workspaces {
-    name = "integracaoteste"
-  }
+ 
 }
