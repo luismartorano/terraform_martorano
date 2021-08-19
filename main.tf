@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     # Lembre de trocar o bucket para o seu, não pode ser o mesmo nome
     bucket = "terraform-luismartorano"
-    dynamodb_table = "terraform-state-lock-dynamo"            //state locking
+    #dynamodb_table = "terraform-state-lock-dynamo"            //state locking
     key    = "terraform-princ.tfstate"
     region = "us-east-2"
   }
