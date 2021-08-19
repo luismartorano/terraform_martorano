@@ -12,6 +12,5 @@ terraform {
     #dynamodb_table = "terraform-state-lock-dynamo"            //state locking
     key    = "terraform-princ.tfstate"
     region = "us-east-2"
-  }
- 
+  } 
 }
