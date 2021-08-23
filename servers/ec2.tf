@@ -17,7 +17,7 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
   #key_name = "ubuntusp" #Criar a key_pair na regiar e setar aqui! Esta é a de SAO PAULO
   key_name = "ubuntu" #Criar a Key+pair em Network & Security, choose Key Pairs para regiam e gerar o .pem na raiz do codigo
-  #vpc_security_group_ids = ["${aws_security_group.allow_ssh.id}"]
+  vpc_security_group_ids = ["${aws_security_group.allow_ssh.id}"]
   
   /*
   //É bom saber pq cai na prova, mas a Hashicorp diz q não é bom usar o provisioner!
