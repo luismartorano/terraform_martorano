@@ -1,3 +1,4 @@
+resource "aws_default_vpc" "default" {}
 resource "aws_security_group" "allow_ssh" {
   name        = "allowssh"
   description = "Allow SSH inbound traffic"
