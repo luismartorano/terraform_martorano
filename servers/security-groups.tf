@@ -1,4 +1,4 @@
-resource "aws_security_group" "allow_ssh" {
+resource "aws_security_group" "allowssh" {
   name        = "allow_ssh"
   description = "Allow SSH inbound traffic"
   vpc_id      = "vpc-d0eb76bb" #minha vpc na amazon us-east-2 (workspace production)
