@@ -8,8 +8,6 @@ provider "aws" {
 }
 
 
-
-
 //state é armazenado dentro do s3 da Amazon.  
 terraform {
   backend "s3" {

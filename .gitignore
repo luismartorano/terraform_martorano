@@ -19,4 +19,10 @@ crash.log
 *.bak
 
 #ocultando o arquivo pem
-#*.pem
+*.pem
+
+*.csv
+.env
+plano*
+
+.ssh
