@@ -43,7 +43,7 @@ resource "aws_instance" "web" {
       "sudo usermod -aG docker $(whoami)",
       #"curl -LO https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl",
       #"sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl",
-      "pip install docker-compose",
+      "sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose",
       "bash",
     ]
     
