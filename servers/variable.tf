@@ -9,3 +9,4 @@ variable "servers" {
   type    = number
   default = 1
 }
+
