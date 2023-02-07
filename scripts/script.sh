@@ -28,7 +28,7 @@ sudo sed -i 's/SystemdCgroup \= false/SystemdCgroup \= true/g' /etc/containerd/c
 sudo systemctl restart containerd
 sudo systemctl enable containerd
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
-sudo apt-add-repository -y "deb http://apt.kubernetes.io/ kubernetes-jammy main"
+sudo apt-add-repository -y "deb http://apt.kubernetes.io/ kubernetes-xenial main"
 sudo apt update
 sudo apt install -y kubelet kubeadm kubectl
 sudo apt-add-repository -y "deb http://apt.kubernetes.io/ kubernetes-xenial main"
